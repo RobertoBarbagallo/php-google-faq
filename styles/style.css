@@ -89,4 +89,9 @@ header ul li a {
 
 .main .container {
    margin-top: 80px;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.main .container h1{
+    padding-bottom: 18px;
 }
