@@ -11,6 +11,7 @@ $content = [
             "Per presentare una richiesta di rimozione, compila questo modulo web. Riceverai una risposta automatica che conferma la ricezione della tua richiesta. Dopodiché valuteremo il tuo caso (tieni presente che potrebbe occorrere un po' di tempo perché abbiamo già ricevuto tante richieste simili). Nel valutare la richiesta, considereremo se i risultati includono informazioni obsolete relative alla tua vita privata. Considereremo inoltre se vi è un interesse pubblico a che le informazioni rimangano nei nostri risultati delle ricerche, ad esempio se riguardano frodi finanziarie, negligenza professionale, condanne penali o la tua condotta pubblica in relazione a un pubblico ufficio (eletto o non eletto). Queste valutazioni sono complesse e, in quanto organizzazione privata, potremmo non essere nella posizione giusta per prendere decisioni in merito al tuo caso. Se non sei d'accordo con la nostra valutazione, puoi rivolgerti all'Autorità garante per la protezione dei dati personali nel tuo paese.",
             "Nei prossimi mesi lavoreremo a stretto contatto con le autorità per la protezione dei dati e con altre autorità per perfezionare il nostro approccio. La decisione della CGUE rappresenta un cambiamento significativo per i motori di ricerca. Siamo preoccupati per le sue conseguenze, ma riteniamo anche che sia importante rispettare la decisione della Corte e ci stiamo adoperando per predisporre una procedura conforme alla legge.",
             "Quando cerchi un nome, potresti trovare una notifica in cui viene spiegato che i risultati potrebbero essere stati modificati nel rispetto delle leggi europee per la protezione dei dati. Mostriamo questa notifica agli utenti europei quando cercano la maggior parte dei nomi, non soltanto le pagine che sono state soggette a una rimozione.",
+
         ],
     ],
     [
@@ -27,9 +28,16 @@ $content = [
         "par" => [
             "Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:",
         ],
-        "ul" => [],
+        "ul" => [
+            "La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:",
+            [
+                "Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.",
+                "Google LLC, con sede negli Stati Uniti, per il resto del mondo.",
+            ],
+            "La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.",
+        ],
         "par-two" => "Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account.",
-        "second-title" => "Stabilire il paese associato al tuo accoun",
+        "second-title" => "Stabilire il paese associato al tuo account",
         "second-par" => [
             "Quando crei un nuovo Account Google, lo associamo a un paese in base a dove è stato creato. Per quanto riguarda gli account creati almeno un anno fa, usiamo il paese da cui accedi solitamente ai servizi Google, in genere i servizi in cui hai trascorso più tempo nell'ultimo anno.",
             "I viaggi frequenti solitamente non influiscono sul paese associato al tuo account. Se ti trasferisci in un altro paese, potrebbe occorrere circa un anno per aggiornare l'associazione del paese.",
@@ -38,11 +46,13 @@ $content = [
     ],
     [
         "title" => "Come faccio a rimuovere informazioni su di me dai risultati di ricerca di Google?",
-        "par" => "I risultati di ricerca di Google rispecchiano i contenuti pubblicamente disponibili sul Web. I motori di ricerca non possono rimuovere i contenuti direttamente dai siti web, quindi rimuovere risultati di ricerca da Google non consente di rimuovere i contenuti dal Web. Se desideri rimuovere qualcosa dal Web, devi contattare il webmaster del sito su cui sono pubblicati i contenuti e chiedergli di apportare una modifica. Inoltre, se, ai sensi delle leggi europee per la protezione dei dati, desideri richiedere la rimozione di determinate informazioni su di te visualizzate nei risultati di ricerca di Google, fai clic qui. Una volta che i contenuti saranno stati rimossi e che Google avrà rilevato l'aggiornamento, le informazioni non verranno più visualizzate nei risultati di ricerca di Google. In caso di una richiesta di rimozione urgente, è inoltre possibile visitare la nostra pagina di assistenza per avere ulteriori informazioni."
+        "par" => "I risultati di ricerca di Google rispecchiano i contenuti pubblicamente disponibili sul Web. I motori di ricerca non possono rimuovere i contenuti direttamente dai siti web, quindi rimuovere risultati di ricerca da Google non consente di rimuovere i contenuti dal Web. Se desideri rimuovere qualcosa dal Web, devi contattare il webmaster del sito su cui sono pubblicati i contenuti e chiedergli di apportare una modifica. Inoltre, se, ai sensi delle leggi europee per la protezione dei dati, desideri richiedere la rimozione di determinate informazioni su di te visualizzate nei risultati di ricerca di Google, fai clic qui. Una volta che i contenuti saranno stati rimossi e che Google avrà rilevato l'aggiornamento, le informazioni non verranno più visualizzate nei risultati di ricerca di Google. In caso di una richiesta di rimozione urgente, è inoltre possibile visitare la nostra pagina di assistenza per avere ulteriori informazioni.",
+
     ],
     [
         "title" => "Quando faccio clic sui risultati della Ricerca Google, le mie chiavi di ricerca vengono inviate ai siti web?",
-        "par" => "In alcuni casi sì. Quando fai clic su un risultato della Ricerca Google, il tuo browser web potrebbe reindirizzare alla pagina web di destinazione anche l'indirizzo Internet, o URL, della pagina dei risultati di ricerca sotto forma di URL referrer. Talvolta, l'URL della pagina dei risultati di ricerca potrebbe contenere la query di ricerca che hai inserito. Se utilizzi la ricerca SSL (la funzione di ricerca criptata di Google), nella maggior parte dei casi i termini di ricerca non vengono inviati come parte dell'URL negli URL referrer. Questo comportamento può fare eccezione, ad esempio se utilizzi alcuni browser meno diffusi. Ulteriori informazioni sulla ricerca SSL sono disponibili qui. Le query di ricerca o le informazioni contenute nell'URL referrer potrebbero essere disponibili mediante Google Analytics o un'API (Application Programming Interface). Inoltre, gli inserzionisti potrebbero ricevere informazioni relative all' esatte parole chiave che hanno determinato il clic su un annuncio."
+        "par" => "In alcuni casi sì. Quando fai clic su un risultato della Ricerca Google, il tuo browser web potrebbe reindirizzare alla pagina web di destinazione anche l'indirizzo Internet, o URL, della pagina dei risultati di ricerca sotto forma di URL referrer. Talvolta, l'URL della pagina dei risultati di ricerca potrebbe contenere la query di ricerca che hai inserito. Se utilizzi la ricerca SSL (la funzione di ricerca criptata di Google), nella maggior parte dei casi i termini di ricerca non vengono inviati come parte dell'URL negli URL referrer. Questo comportamento può fare eccezione, ad esempio se utilizzi alcuni browser meno diffusi. Ulteriori informazioni sulla ricerca SSL sono disponibili qui. Le query di ricerca o le informazioni contenute nell'URL referrer potrebbero essere disponibili mediante Google Analytics o un'API (Application Programming Interface). Inoltre, gli inserzionisti potrebbero ricevere informazioni relative all' esatte parole chiave che hanno determinato il clic su un annuncio.",
+
     ],
 
 
@@ -77,7 +87,7 @@ $content = [
                 <div class="img-cont">
                     <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="google logo">
                 </div>
-                <div class="flex-g1 header-text align-fe">Privacy e termini</div>
+                <div class="flex-g1 header-text">Privacy e termini</div>
                 <i class="fas fa-bars flex-cont"></i>
                 <div class="round flex-cont">R</div>
             </div>
@@ -104,10 +114,7 @@ $content = [
 
     <div class="main">
         <div class="container">
-
-
             <?php
-
             foreach ($content as $article) {
             ?>
                 <h1> <?php echo $article["title"] ?></h1>
@@ -119,7 +126,7 @@ $content = [
                         <p> <?php echo $paragraph ?></p><br>
 
                     <?php
-                    } #chiusura foreach interno 
+                    } 
                     ?>
                 <?php
                 } else {
@@ -128,8 +135,74 @@ $content = [
                 <?php
                 }
                 ?>
+
+                <?php
+                if (isset($article["ul"])) {
+                ?>
+
+                    <ul>
+                        <?php
+
+                        foreach ($article["ul"] as $li) {
+                            if (is_array($li)) {
+                        ?>
+                                <ul>
+                                    <?php 
+                                    foreach($li as $lastItem){
+                                    ?>
+                                    <li> <?php echo $lastItem  ?></li> <br>
+                                    <?php 
+                                        }
+                                    ?>
+                                </ul>
+                            <?php
+                            } else {
+                            ?>
+
+                                <li> <?php echo $li ?></li> <br>
+                            <?php
+                            }
+                            ?>
+
+                        <?php
+                        }
+                        ?>
+                    </ul> <br>
+
+                <?php
+                }
+                ?>
+                <?php
+
+                if (isset($article["par-two"])) {
+                ?>
+                    <p><?php echo $article["par-two"]  ?></p> <br>
+                <?php
+                }
+                ?>
+                <?php
+
+                if (isset($article["second-title"])) {
+                ?>
+                    <h2><?php echo $article["second-title"]  ?></h2>
+                <?php
+                }
+                ?>
+                <?php
+
+                if (isset($article["second-par"])) {
+                    foreach ($article["second-par"] as $lastPar) {
+                ?>
+
+                        <p> <?php echo $lastPar ?> </p> <br>
+                    <?php
+                    }
+                    ?>
+                <?php
+                }
+                ?>
             <?php
-            } #chiusura foreach
+            }
             ?>
 
         </div>
