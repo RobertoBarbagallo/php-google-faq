@@ -100,9 +100,8 @@ header ul li a {
     list-style: decimal inside;
 }
 
-.main .container ul ul{
+.main .container ul li ul{
     list-style:  lower-alpha inside;
-    margin-left: 18px;
 }
 
 .main .container h2{
