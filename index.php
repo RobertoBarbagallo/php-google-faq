@@ -144,9 +144,14 @@ $content = [
                         <?php
 
                         foreach ($article["ul"] as $li) {
-                            if (is_array($li)) {
+                            if (!is_array($li)) {
                         ?>
-                                <ul>
+                               <li> <?php echo $li ?>
+                               
+                            <?php
+                            } else {
+                            ?>
+ <ul>
                                     <?php 
                                     foreach($li as $lastItem){
                                     ?>
@@ -156,17 +161,13 @@ $content = [
                                     ?>
                                 </ul>
                             <?php
-                            } else {
-                            ?>
-
-                                <li> <?php echo $li ?></li> <br>
-                            <?php
                             }
                             ?>
 
                         <?php
                         }
                         ?>
+                        </li> 
                     </ul> <br>
 
                 <?php
